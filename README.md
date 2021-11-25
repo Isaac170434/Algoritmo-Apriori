@@ -36,11 +36,18 @@ Para ejecutar el *notebook (Jupyter)*:
 
 ### 1. Implementación del algoritmo Apriori
 
-Implementación del algoritmo. Para estructurar mejor el código, se implementarán las siguientes funciones:
+Implementación del algoritmo. 
+Para estructurar mejor el código, se implementarán las siguientes funciones principales:
 
-        • get_frequent_itemsets(playlists, min_support): Recibe la esctructura de datos que contiene a las playlists y retorna una estructura con los itemsets frecuentes, bajo un umbral mínimo de confianza.
+- **get_frequent_itemsets(playlists, min_support)**: Recibe la esctructura de datos que contiene a las playlists y retorna una estructura con los itemsets frecuentes, bajo un umbral mínimo de confianza.
   
-        • generate_association_rules(frequent_itemsets, confidence = 0, lift = 0): Recibe los itemsets frecuentes generados por la función anterior y retorna las reglas de asociación. Se le puede entregar umbrales de confianza o lift para las reglas que se retornarán. Por ejemplo, si se llama esta función con los ar- gumentos confidence = 0.5 y lift = 1.2, se espera que se retornen aquellas reglas que cumplan con una confianza ≥ 0.5 y un lift ≥ 1.2.
+- **generate_association_rules(frequent_itemsets, confidence = 0, lift = 0)**: Recibe los itemsets frecuentes generados por la función anterior y retorna las reglas de asociación. Se le puede entregar umbrales de confianza o lift para las reglas que se retornarán. Por ejemplo, si se llama esta función con los ar- gumentos confidence = 0.5 y lift = 1.2, se espera que se retornen aquellas reglas que cumplan con una confianza ≥ 0.5 y un lift ≥ 1.2.
+
+Funciones de apoyo:
+
+- **calcular_inter(subset,canciones_playlist)**: Recibe tuplas de itemsets para calcular el contador de soporte de un itemset con la lista de canciones en playlist.
+
+- **combinations(iterable, r)**: Generar las tuplas de combinaciones de los itemsets.
 
 ### 2. Aplicar el algoritmo y obtener reglas de asociación
 
