@@ -12,7 +12,7 @@ Repositorio creado para el desarrollo del algoritmo Apriori
 
 ## Requerimientos
 
-Son las librerías requeridas para ejecutar esta tarea. Los requerimientos se pueden instalar fácilmente con:
+Son las librerías requeridas para ejecutar esta tarea. Los requerimientos son lo que necesitamos principalmente para ejecutar el código:
 
 | Libreria          | 
 | ----------------- |
