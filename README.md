@@ -1,7 +1,7 @@
 # Algoritmo Apriori
 Repositorio creado para el desarrollo del algoritmo Apriori
 ```
-##Universidad Nacional de San Antonio Abad del Cusco##
+Universidad Nacional de San Antonio Abad del Cusco
 Facultad de ingeniería Eléctrica, Electrónica, Informática y Mecánica
 Asignatura: Mineria de Datos
 Docente   : Carlos Fernando Montoya Cubas
