@@ -19,7 +19,7 @@ Son las librerías requeridas para ejecutar esta tarea. Los requerimientos se pu
 | `altair==2.2.2`   |
 | `pandas==0.23.4`  |
 | `numpy==1.15.1`   |
-| ----------------- |
+
 | Archivo           | 
 | ----------------- |
 | `spotify.npy`     |
