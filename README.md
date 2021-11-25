@@ -69,4 +69,4 @@ Selección de 4 reglas y comentando su calidad de acuerdo a los diferentes indic
 
 ### 3. Filtro de canciones por su frecuencia
 
-Las canciones más escuchadas son las que generan o tienen un mayor número de frecuencias, así que recuperaremos el top 30.
+Las canciones más escuchadas son las que generan o tienen un mayor número de frecuencia, así que recuperaremos el top 30.
