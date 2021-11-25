@@ -9,7 +9,7 @@ Autor     : Antony Isaac Huaman Hermoza
 Fecha     : 24/11/2021
 Lugar     : Cusco, Perú
 ```
-##### Por: Antony Isaac Huaman Hermoza
+##### Desarrollado por: Antony Isaac Huaman Hermoza
 
 ## Contenido
 
