@@ -1,5 +1,14 @@
 # Algoritmo Apriori
 Repositorio creado para el desarrollo del algoritmo Apriori
+```
+##Universidad Nacional de San Antonio Abad del Cusco##
+Facultad de ingeniería Eléctrica, Electrónica, Informática y Mecánica
+Asignatura: Mineria de Datos
+Docente   : Carlos Fernando Montoya Cubas
+Autor     : Antony Isaac Huaman Hermoza
+Fecha     : 24/11/2021
+Lugar     : Cusco, Perú
+```
 ##### Por: Antony Isaac Huaman Hermoza
 
 ## Contenido
