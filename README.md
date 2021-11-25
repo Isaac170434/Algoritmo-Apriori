@@ -1,5 +1,6 @@
 # Algoritmo Apriori
 Repositorio creado para el desarrollo del algoritmo Apriori
+##### Por: Antony Isaac Huaman Hermoza
 
 ## Contenido
 
@@ -8,8 +9,6 @@ Repositorio creado para el desarrollo del algoritmo Apriori
 ├── 2. Aplicar el algoritmo y obtener reglas de asociación
 └── 3. Explicar las reglas obtenidas
 ```
-
-##### Por: Antony Isaac Huaman Hermoza
 
 ## 1) Implementación del algoritmo Apriori
 
