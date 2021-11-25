@@ -38,8 +38,9 @@ Para ejecutar el *notebook (Jupyter)*:
 
 Implementación del algoritmo. Para estructurar mejor el código, se implementarán las siguientes funciones:
 
-  • get_frequent_itemsets(playlists, min_support): Recibe la esctructura de datos que contiene a las playlists y retorna una estructura con los itemsets frecuentes, bajo un umbral mínimo de confianza.
-  • generate_association_rules(frequent_itemsets, confidence = 0, lift = 0): Recibe los itemsets frecuentes generados por la función anterior y retorna las reglas de asociación. Se le puede entregar umbrales de confianza o lift para las reglas que se retornarán. Por ejemplo, si se llama esta función con los ar- gumentos confidence = 0.5 y lift = 1.2, se espera que se retornen aquellas reglas que cumplan con una confianza ≥ 0.5 y un lift ≥ 1.2.
+        • get_frequent_itemsets(playlists, min_support): Recibe la esctructura de datos que contiene a las playlists y retorna una estructura con los itemsets frecuentes, bajo un umbral mínimo de confianza.
+  
+        • generate_association_rules(frequent_itemsets, confidence = 0, lift = 0): Recibe los itemsets frecuentes generados por la función anterior y retorna las reglas de asociación. Se le puede entregar umbrales de confianza o lift para las reglas que se retornarán. Por ejemplo, si se llama esta función con los ar- gumentos confidence = 0.5 y lift = 1.2, se espera que se retornen aquellas reglas que cumplan con una confianza ≥ 0.5 y un lift ≥ 1.2.
 
 ### 2. Aplicar el algoritmo y obtener reglas de asociación
 
