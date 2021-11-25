@@ -45,7 +45,7 @@ Para estructurar mejor el código, se implementarán las siguientes funciones pr
 
 Funciones de apoyo:
 
-- **calcular_inter(subset,canciones_playlist)**: Recibe tuplas de itemsets para calcular el contador de soporte de un itemset con la lista de canciones en playlist.
+- **inter(subset,songs_playlist)**: Recibe tuplas de itemsets para calcular el contador de soporte de un itemset con la lista de canciones en playlist.
 
 - **combinations(iterable, r)**: Generar las tuplas de combinaciones de los itemsets.
 
@@ -57,3 +57,7 @@ mejores 10 reglas de asociación de acuerdo criterios de calidad.
 ### 3. Explicar las reglas obtenidas
 
 Selección de 4 reglas y comentando su calidad de acuerdo a los diferentes indicadores disponibles (support, confidence y lift). Interpretación de las reglas según el género y/o el artista de las canciones (que puedes buscar según el nombre de la canción).
+
+### 3. Filtro de canciones por su frecuencia
+
+Las canciones más escuchadas son las que generan o tienen un mayor número de frecuencias, así que recuperaremos el top 30.
