@@ -22,7 +22,7 @@ Lugar     : Cusco, Perú
 
 El código esta desarrollado en Google Colab por ello es necesario cargar los archivos que se encuentran en la carpeta de `Archivos a subir al colab`, entre estos archivos tenemos:
 
-| Libreria          | 
+| Archivos          | 
 | ----------------- |
 | `stopwords.txt`   |
 | `millionsong.txt`  |
